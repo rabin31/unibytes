@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+.nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+.nav-part3{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+
+.nav h2{
+    font-size: 1.8vw;
+    font-weight: 700;
+    margin-left: -1.2vw;
+}
+.nav h4{
+    font-size: 1.1vw;
+}
+.nav button{
+    height: 3vw;
+    width: 8vw;
+    font-size: 0.7vw;
+    /* padding: 0.2vw 1.2vw; */
+    background-color: #03AFF1;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.nav button:hover{
+    background-color: #00445f;
+    cursor: pointer;
+}
+.nav .logo{
+    width: 6vw;
+    margin-left: -4.5vw;
+}
+.ri-menu-3-fill{
+    font-size: 1.6vw;
+    font-weight: 800;
+    display: none;
+}
+.content{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    
+    border-bottom: 0.1vw solid grey;
+}
+.left{
+    height: 100%;
+    width: 100%;
+    padding: 5vw 4vw;
+    
+}
+.me{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left h1{
+    font-size: 4.2vw;
+    line-height: 2vw;
+}
+.left h1 span{
+    color: #03AFF1;
+}
+.left p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+.content button{
+    font-size: 1.2vw;
+    padding: 1.3vw 2.3vw;
+    background-color: #03AFF1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.ri-arrow-right-line{
+
+    padding: 0.2vw 0.4vw;
+    border-radius: 5px;
+}
+.se{
+    height: 3vw;
+    width: 24vw;
+    border: none;
+    padding: 0 0.5vw;
+    border-radius: 20px;
+    margin-left: 0.6vw;
+    outline: none;
+}
+.sebox{
+    width: 2.7vw;
+    width: 29vw;
+    background-color: white;
+    gap: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-left: 2vw;
+
+
+}
+h4:hover{
+    color:#03AFF1;
+    cursor: pointer;
+}
+.ri-search-line{
+    padding: 0.2vw 0.4vw;
+    margin-left: 0.6vw;
+    font-weight: 700;
+}
+.main{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+    border-bottom: 0.1vw solid gray;
+}
+.main .m-left{
+    width: 20%;
+    height: 600px;
+    padding: 5vw 5vw;
+}
+.main .m-right{
+    width: 80%;
+    height: 650px;
+    padding: 3vw 3vw;
+}
+.m-left .ser{
+    font-size: 1.8vw;
+    font-weight: 500;
+    color: #03AFF1;
+}
+.m-left a{
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: black;
+    margin-top: 1vw;
+    font-weight: 500;
+}
+
+.lists{
+    display: grid;
+}
+.m-right .head{
+    font-size: 1.6vw;
+    color: #03AFF1;
+    font-weight: 500;
+}
+.m-right .buttons button{
+    height: 3vw;
+    width: 6vw;
+    border-radius: 20px;
+    border: none;
+    background-color: #03AFF1;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    
+}
+.m-right .buttons button a{
+    font-size: 1.1vw;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.posts{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.posts .p-left{
+    width: 70%;
+    padding: 2vw 2vw;
+    
+}
+.p-left .about{
+    font-size: 1.2vw;
+    margin-top: 0.5vw;
+    font-weight: 600;
+    color: #292727;
+}
+.p-left .date{
+    font-size: 1.2vw;
+    color: #03AFF1;
+}
+.p-left .heading{
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: black;
+}
+.p-right .img-post{
+    width: 15vw;
+}
+.details{
+    display: flex;
+    align-items: center;
+}
+.details button{
+    height: 2.5vw;
+    width: 5vw;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: 2vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.details .user{
+    font-size: 1.2vw;
+    margin-left: 5vw;
+    color: rgb(51, 49, 49);
+    font-weight: 600;
+}
+.details .time{
+    font-size: 1.2vw;
+    margin-left: 5vw;
+    color: #03AFF1;
+    font-weight: 600;
+}
+.contact{
+    height: 300px;
+    width: 100%;
+    padding: 5vw 10vw;
+    
+}
+.contact .up{
+    font-size: 1.2vw;
+    color: #03AFF1;
+    margin-top: 1vw;
+}
+.contact .connect{
+    font-size: 3vw;
+    color: black;
+    font-weight: 700;
+    margin-top: 0.5vw;
+    
+}
+.send-box{
+    margin-top: 1vw;
+}
+.send-box input{
+    height: 3vw;
+    width: 25vw;
+    border-radius: 5px;
+    border: 0.1vw solid grey;
+    padding: 2vw 2vw;
+}
+.send-box button{
+    height: 4.2vw;
+    width: 8vw;
+    border-radius: 5px;
+    background-color: #03AFF1;
+    border: none;
+    font-size: 1.3vw;
+    margin-left: 1.5vw;
+    color: white;
+}
+.contact .msg{
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: 1vw;
+}
+
+@media (max-width:600px) {
+    .nav{
+        padding: 0 5vw;
+        height: 60px;
+    }
+    .nav h2{
+        font-size: 5.1vw;
+    }
+    .nav h4{
+        font-size: 6vw;
+        display: none;
+    }
+    .nav button{
+        display: none;
+    }
+    .ri-menu-3-fill{
+        display: block;
+        font-size: 5.5vw;
+    }
+    .main{
+        margin-top: 22vw;
+        height: 300px;
+        border-bottom: 0.1vw solid grey;
+    }
+    .content{
+        height: 60vw;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: 45%;
+        padding: 4vw 6vw;
+    }
+    .right{
+        width: 100%;
+        height: 55%;
+    }
+    .left h1{
+        font-size: 10vw;
+        line-height: 11vw;
+    }
+    .left h1 span{
+        color: #03AFF1;
+    }
+    .left p{
+        font-size: 3vw;
+        width: 90%;
+        margin-top: 5vw;
+        margin-bottom: 6vw;
+    }
+    .content button{
+        padding: 3vw 6vw;
+        border-radius: 3px;
+        font-weight: 600;
+        font-size: 3.5vw;
+
+    }
+    .sebox{
+        display: none;
+    }
+    .m-right{
+        margin-top: -80vw;
+    }
+    .main .m-left{
+        display: none;
+    }
+    .main .m-right{
+        width: 100%;
+        height: 40%;
+        padding: 0 6vw;
+    }
+    .m-right .head{
+        font-size: 4vw;
+        color: #03AFF1;
+    }
+    .m-right .buttons button{
+        height: 7vw;
+        width: 17vw;
+        border-radius: 20px;
+        border: none;
+        margin-left: 2vw;
+        margin-top: 3vw;
+        background-color: #03AFF1;
+        
+    }
+    .m-right .buttons button a{
+        font-size: 3vw;
+        text-decoration: none;
+        color: white;
+        padding: 1vw 1vw;
+    }
+
+    .p-left .date{
+        font-size: 3vw;
+        margin-top: 1.5vw;
+        color: #03AFF1;
+    }
+    .p-right .img-post{
+        display: none;
+    }
+    .p-left .heading{
+        font-size: 5vw;
+        font-weight: 600;
+        color: black;
+    }
+    .posts{
+        margin-top: 2vw;
+    }
+    .posts .p-left{
+        width: 100%;
+        padding: 2vw 2vw;
+        
+    }
+    .details button{
+        height: 4vw;
+        width: 10vw;
+        border-radius: 20px;
+        border: none;
+        margin-left: 2vw;
+        margin-top: 1vw;
+        font-size: 2vw;
+        background-color: #000000;
+        color: white;
+    }
+    .details .user{
+        font-size: 3vw;
+        margin-left: 2vw;
+        color: rgb(51, 49, 49);
+        font-weight: 600;
+        margin-top: 1vw;
+        margin-left: 6vw;
+    }
+    .details .time{
+        font-size: 3vw;
+        margin-left: 2vw;
+        color: #03AFF1;
+        font-weight: 300;
+        margin-top: 1vw;
+        margin-left: 6vw;
+    }
+    .p-left .about{
+        font-size: 2.5vw;
+        margin-top: 0.5vw;
+        font-weight: 300;
+        color: #292727;
+    }
+    .contact{
+        height: 200px;
+    }
+    .contact .up{
+        font-size: 3vw;
+        color: #03AFF1;
+        margin-top: 3vw;
+    }
+    .contact .connect{
+        font-size: 8vw;
+        color: black;
+        font-weight: 700;
+        margin-top: 0.5vw;
+        
+    }
+    .send-box{
+        margin-top: 1vw;
+        display: flex;
+        align-items: center;
+    }
+    .send-box input{
+        height: 9vw;
+        width: 50vw;
+        border-radius: 5px;
+        border: 0.1vw solid grey;
+        padding: 2vw 2vw;
+    }
+    .send-box button{
+        height: 9vw;
+        width: 18vw;
+        border-radius: 5px;
+        background-color: #03AFF1;
+        border: none;
+        font-size: 2vw;
+        margin-left: 1.5vw;
+        color: white;
+    }
+    .contact .msg{
+        font-size: 2.5vw;
+        font-weight: 500;
+        margin-top: 2.5vw;
+    }
+    .nav .logo{
+        width: 15vw;
+    }
+
+}
+
